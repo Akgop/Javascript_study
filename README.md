@@ -1,3 +1,3 @@
-# Javascript Study
+# Programming Language
 
-공부 많이 하고 다시 작성하기 ㅎㅎ
+자바스크립트, 자바 공부하고 다시 작성하기~
