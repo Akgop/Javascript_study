@@ -11,6 +11,7 @@ var myfunc = function(txt) {
     console.log(txt);
 }
 myfunc("변수에 저장.");
+console.log( myfunc );
 
 // 2. 함수의 파라미터로 "함수"를 전달할 수 있다.
 // ex): 콜백 함수(callback function)

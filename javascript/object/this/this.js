@@ -49,3 +49,12 @@ let user3 = {
 };
 
 user3.sayHi();
+
+// 예제
+let calculator = {
+    // ... 여기에 답안 작성 ...
+  };
+  
+  calculator.read();
+  alert( calculator.sum() );
+  alert( calculator.mul() );

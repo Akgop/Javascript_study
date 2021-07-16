@@ -9,6 +9,7 @@ console.log(price, typeof(price));
 console.log(+price, typeof(+price));    // +price Number(price) 와 동일한 결과를 갖는다.
 let price1 = "1000";
 let price2 = "2000";
+console.log(price1 + price2);
 console.log(+price1 + +price2);     // console.log(Number(price1) + Number(price2)) 와 동일
 
 // 연산자 우선순위(precedence)
@@ -64,6 +65,9 @@ console.log( console.log(1) || 2);  // console.log() 의 반환값은 undefined�
 console.log(true || "true가 출력되고, 이 문장은 출력되지 않는다");
 console.log(false || "false가 truthy하지 않으므로 이 문장은 출력된다.");
 // &&는 반대로 falsy를 찾는데 활용할 수 있다.
+console.log(true && "이 문장은 출력되나? NO" && false);
+console.log(true && "이 문장은 출력되나? NO" && undefined);
+
 // !은 연산 프로세스가 우선 boolean으로 형변환을 하고 역을 수행한다.
 // 이 성질을 이용해서 !!을 사용하면 boolean이 아닌 자료형을 boolean으로 변환할 수 있다.
 console.log(!!"불린으로 변환되서 true 출력됨.");
@@ -79,5 +83,3 @@ console.log(height || 100);     //100   || 입장에서 height는 0이므로 fal
 console.log(height ?? 100);     //0     height는 0으로 "할당" 되었기 때문에 0을 반환
 // 이처럼 값으로 0 이 할당될 수 있는 경우에 || 의 사용을 조심하고 ?? 을 사용하자.
 // ?? 의 우선순위는 매우 낮으니 사용시 괄호를 추가하여 사용하자.
-
-
